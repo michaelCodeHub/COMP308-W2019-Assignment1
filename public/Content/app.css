@@ -132,6 +132,40 @@ html, body{
   }
 }
 
+/* Projects */
+
+.tileSmall{
+  height: 300px;
+  /* background-color: #000000; */
+  box-shadow: 2px 2px 12px 2px #afafaf;
+  border-radius: 5px;
+}
+
+.tileBig{
+  height: 620px;
+  /* background-color: #00c4f3; */
+  box-shadow: 2px 2px 12px 2px #afafaf;
+  border-radius: 5px;
+}
+
+.tile{
+  transition: transform .2s;
+}
+
+.tile:hover{
+  transform: scale(1.05);
+}
+
+
+.tileSmall .project-logo{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.tileBig .project-logo{
+  width: 50%;
+}
 
 
 
@@ -459,3 +493,5 @@ html, body{
     text-align: left;
   }
 }
+
+
