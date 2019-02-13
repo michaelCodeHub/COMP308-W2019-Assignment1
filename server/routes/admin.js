@@ -15,4 +15,7 @@ router.get('/', adminController.displayMessages);
 // Adding a messge
 router.post('/', adminController.processMessage);
 
+//delete a message
+router.get('/delete/:id', adminController.deleteMessage);
+
 module.exports = router;

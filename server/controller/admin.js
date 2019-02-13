@@ -46,7 +46,22 @@ let processMessage = (req,res,next) => {
     });
 };
 
+
+let deleteMessage = (req,res,next) => {
+    let id = req.params.id;
+
+    messageModel.remove( {_id:id} , (err, contactModel)=>{
+        if(err){
+            res.end(err);
+        }
+        else{
+            res.redirect("/admin");
+        }
+    });
+};
+
 module.exports = {
     displayMessages,//getting all the messages
-    processMessage//Processing the add message
+    processMessage, //Processing the add message
+    deleteMessage
 }
