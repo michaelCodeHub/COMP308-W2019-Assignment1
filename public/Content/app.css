@@ -13,19 +13,13 @@ html, body{
   margin-right: 0px;
 }
 
-/* body{
-  width: 100%;
-  background-image: url("../Assets/Images/bg.jpeg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-} */
-
 .logo-navbar{
   width: 75px;
   height:auto;
 }
 
+
+/* CSS FOr Nav Bar */
 
 .sidenav {
   height: 100%;
@@ -70,9 +64,11 @@ html, body{
   .sidenav a {font-size: 18px;}
 }
 
-.home-content{
+/* .home-content{
   margin-top: 35vh;
-}
+} */
+
+
 
 .myButton{
   color: white;
