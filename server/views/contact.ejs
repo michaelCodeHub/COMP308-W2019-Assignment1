@@ -16,17 +16,17 @@
             </div>
         </div>
         <div class="col-lg-7">
-            <form method="POST">
+            <form method="POST" action="./admin">
                 <h3 class="title">Get In Touch</h3>
                 <hr>
                 <div class="contactform row">
                     <div class="row col-lg-12 marginTop">
                         <p class="col-lg-6">First Name</p>
-                        <input name="firstname"  class="col-lg-6 inputBox" type="text"/>
+                        <input name="firstName"  class="col-lg-6 inputBox" type="text"/>
                     </div>
                     <div class="row col-lg-12 marginTop">
                         <p class="col-lg-6">Last Name</p>
-                        <input name="lastname" class="col-lg-6 inputBox" type="text"/>
+                        <input name="lastName" class="col-lg-6 inputBox" type="text"/>
                     </div>
                     <div class="row col-lg-12 marginTop">
                         <p class="col-lg-6">Email</p>
@@ -34,14 +34,15 @@
                     </div>
                     <div class="row col-lg-12 marginTop">
                         <p class="col-lg-6">Contact Number</p>
-                        <input name="contact" class="col-lg-6 inputBox" type="text"/>
+                        <input name="number" class="col-lg-6 inputBox" type="text"/>
                     </div>
                     <div class="row col-lg-12 marginTop">
                         <p class="col-lg-6">Message</p>
-                        <textarea name="lastname" class="col-lg-6" type="text"></textarea>
+                        <textarea name="message" class="col-lg-6" type="text"></textarea>
                     </div>
                     <div class="row marginTop">
-                        <input type="submit" value="SEND" class="myButton"/>
+                        <button class="btn btn-primary myButton" type="submit">SEND MESSAGE</button>
+
                     </div>
                 </div>
             </form>

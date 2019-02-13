@@ -1,0 +1,39 @@
+<% include ../partials/header.ejs %>
+
+  <div class="container">
+    <br>
+    <h3 class="text-center"><%= title %></h3>
+    <div class="row justify-content-center">
+        <div class="col-md-offset-1 col-md-10">
+
+        <br>
+        <table class="table label-bordered table-striped table-hover">
+          <tr>
+            <th class="text-center">First Name</th>
+            <th class="text-center">Last Name</th>
+            <th class="text-center">Email</th>
+            <th class="text-center">Number</th>
+            <th class="text-center">Message</th>
+            <th class="text-center"></th>
+          </tr>
+
+          <% messages.forEach(message => { %>
+            <tr>
+              <td class="text-center"><%= message.firstName %></td>
+              <td class="text-center"><%= message.lastName %></td>
+              <td class="text-center"><%= message.email %></td>
+              <td class="text-center"><%= message.number %></td>
+              <td class="text-center"><%= message.message %></td>
+              
+              <td class="text-center">
+                  <a href="./contact-list/delete/<%= message._id %>" class="btn btn-danger"><i class="fa fa-trash-alt"  aria-hidden="true"></i> Delete</a>
+                </td>
+            </tr>
+            <% }); %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+<% include ../partials/footer.ejs %></div>
