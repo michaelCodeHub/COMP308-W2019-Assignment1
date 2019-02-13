@@ -1,31 +1,56 @@
-<%- include ./partials/header.ejs %>
+<!-- 
+File Name : about.ejs
+Author Name : Michael ADAIKALARAJ
+Student Number : 300958145
+Date : Feb 12, 2019 -->
+
+<% include ./partials/header.ejs %>
 <div class="main-container">
   <h1 class="text-center m-t-20 m-b-20"></h1>
 
-  <div class="aboutme row justify-content-center">
-    <div class="col-lg-8 text-center">
-      <img class="profile" src="/Assets/Images/myself.jpeg" />
-      <br />
-      <h1 class="m-t-20">Michael Jaison Adaikalaraj</h1>
-      <p>Software Developer</p>
-      <p>
-        To be a software developer where I can demonstrate my programming and
-        problem-solving skills to develop user-friendly applications for the
-        clients and to be the crucial part of a company’s improvement with my
-        technical and interpersonal skills.
-      </p>
+  <!-- about me section -->
+  <section class="aboutme-section">
+    <div class="aboutme row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <img class="profile" src="/Assets/Images/myself.jpeg" />
+        <br />
+        <h1 class="m-t-20">Michael Jaison Adaikalaraj</h1>
+        <p>Software Developer</p>
+        <p>
+          To be a software developer where I can demonstrate my programming and
+          problem-solving skills to develop user-friendly applications for the
+          clients and to be the crucial part of a company’s improvement with my
+          technical and interpersonal skills.
+        </p>
+      </div>
     </div>
-  </div>
 
-  <div class="externalLinks">
-    <div class="row justify-content-center">
-        <a target="_blank" class="btn btn-primary myButton m-l-10 m-r-10" href="https://www.linkedin.com/in/michaeladaikalaraj/"><i class="fa fa-linkedin"></i> LinkedIn</a>
-        <a target="_blank" class="btn btn-primary myButton m-l-10 m-r-10" href="https://github.com/michaelCodeHub"><i class="fa fa-github"  aria-hidden="true"></i> GitHub</a>
-        <a target="_blank" class="btn btn-primary myButton m-l-10 m-r-10" href="/Assets/Resume2019.pdf"><i class="fa fa-file"  aria-hidden="true"></i> Resume </a>
+    <div class="externalLinks">
+      <div class="row justify-content-center">
+        <a
+          target="_blank"
+          class="btn btn-primary myButton m-l-10 m-r-10"
+          href="https://www.linkedin.com/in/michaeladaikalaraj/"
+          ><i class="fa fa-linkedin"></i> LinkedIn</a
+        >
+        <a
+          target="_blank"
+          class="btn btn-primary myButton m-l-10 m-r-10"
+          href="https://github.com/michaelCodeHub"
+          ><i class="fa fa-github" aria-hidden="true"></i> GitHub</a
+        >
+        <a
+          target="_blank"
+          class="btn btn-primary myButton m-l-10 m-r-10"
+          href="/Assets/Resume2019.pdf"
+          ><i class="fa fa-file" aria-hidden="true"></i> Resume
+        </a>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <div class="history">
+  <!-- My History Section -->
+  <section class="history">
     <h2 class="text-center">MY HISTORY</h2>
     <div class="underLine"></div>
     <ul class="timeline">
@@ -119,14 +144,12 @@
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Student Worker.</span>
-            <span class="time-wrapper"
-              ><span class="time">2018</span></span
-            >
+            <span class="time-wrapper"><span class="time">2018</span></span>
           </div>
           <!-- <div class="desc">Lorem ipsum Minim labore Ut cupidatat quis qui deserunt proident fugiat pariatur cillum cupidatat reprehenderit sit id dolor consectetur ut.</div> -->
         </div>
       </li>
     </ul>
-  </div>
+  </section>
 </div>
-<%- include ./partials/footer.ejs %>
+<% include ./partials/footer.ejs %>

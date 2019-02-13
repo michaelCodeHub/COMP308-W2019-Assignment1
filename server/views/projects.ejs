@@ -1,32 +1,40 @@
-<%- include ./partials/header.ejs %>    
-<div class="main-container" style="text-align:center">
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="tile tileSmall m-t-20 m-b-20">
-                <div class="row p-t-20 p-l-20 p-r-20 p-b-20">
-                        <img src="/Assets/Images/wca.png" class="img-responsive project-logo"/>
-                        <p class="col-lg-12 m-t-20">The Canadian Talent Managment firm with international presence, providing unique talent acquisition soultions for employers, inspiring career consulting for job seekers. </p>
-                        <p class="col-lg-12 text-left">Role : UI Developer <br> Website : <a href="http://wehire-dev.us-east-1.elasticbeanstalk.com/" target="_blank" class="text-center">World Capital Advisory</a></p>
+<!-- 
+File Name : projects.ejs
+Author Name : Michael ADAIKALARAJ
+Student Number : 300958145
+Date : Feb 12, 2019 -->
+
+<% include ./partials/header.ejs %>    
+<div class="main-container">
+    <section class="projects" style="text-align:center">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="tile tileSmall m-t-20 m-b-20">
+                    <div class="row p-t-20 p-l-20 p-r-20 p-b-20">
+                            <img src="/Assets/Images/wca.png" class="img-responsive project-logo"/>
+                            <p class="col-lg-12 m-t-20">The Canadian Talent Managment firm with international presence, providing unique talent acquisition soultions for employers, inspiring career consulting for job seekers. </p>
+                            <p class="col-lg-12 text-left">Role : UI Developer <br> Website : <a href="http://wehire-dev.us-east-1.elasticbeanstalk.com/" target="_blank" class="text-center">World Capital Advisory</a></p>
+                    </div>
+                </div>
+                <div class="tile tileSmall m-t-20 m-b-20 ">
+                    <div class="row p-t-20 p-l-20 p-r-20 p-b-20">
+                            <img src="/Assets/Images/saguni.png" class="img-responsive project-logo"/>
+                            <p class="col-lg-12 m-t-20">An entertainment company who provides best customer experience in gaming industry with high quality games. They encourage e-sports in India by providing best amenities and customer experience </p>
+                            <p class="col-lg-12 text-left">Role : Developer <br> Website : <a href="https://saguni.in/" target="_blank" class="text-center">www.saguni.in</a></p>
+                    </div>
                 </div>
             </div>
-            <div class="tile tileSmall m-t-20 m-b-20 ">
-                <div class="row p-t-20 p-l-20 p-r-20 p-b-20">
-                        <img src="/Assets/Images/saguni.png" class="img-responsive project-logo"/>
-                        <p class="col-lg-12 m-t-20">An entertainment company who provides best customer experience in gaming industry with high quality games. They encourage e-sports in India by providing best amenities and customer experience </p>
-                        <p class="col-lg-12 text-left">Role : Developer <br> Website : <a href="https://saguni.in/" target="_blank" class="text-center">www.saguni.in</a></p>
+            <div class="col-lg-6">
+                <div class="tile tileBig m-t-20 m-b-20">
+                    <div class="row p-t-20 p-l-20 p-r-20 p-b-20 justify-content-center">
+                        <img src="/Assets/Images/firstclap.png" class="img-responsive project-logo m-t-30 m-l-20 m-r-20"/>
+                        <p class="col-lg-12 m-t-20">First Clap is an initiative of Moviebuff, the world’s largest database of movies releasing in India. One of the goals of Moviebuff at the time of its conception was to give something back to the industry, while enabling a direct connection for the aspiring filmmakers with the industry and audiences. Through First Clap, a short film contest for aspiring filmmakers to showcase their creations, Moviebuff and its partners in this venture hope to identify and nurture talent, while giving them the ultimate platform to exhibit their craft and measure the pulse of audiences in cinemas.</p>
+                        <p class="col-lg-12 m-t-20">In association with Little Shows and 2D Entertainment, Moviebuff presents First Clap - India's first theatrically showcased talent hunt for ASPIRING FILMMAKERS!</p>
+                        <p class="col-lg-12 text-left">Role : Android Developer <br> Website : <a href="https://play.google.com/store/apps/details?id=moviebuff.com.firstclap" target="_blank" class="text-center">FirstClap - Playstore</a></p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-6">
-            <div class="tile tileBig m-t-20 m-b-20">
-                <div class="row p-t-20 p-l-20 p-r-20 p-b-20 justify-content-center">
-                    <img src="/Assets/Images/firstclap.png" class="img-responsive project-logo m-t-30 m-l-20 m-r-20"/>
-                    <p class="col-lg-12 m-t-20">First Clap is an initiative of Moviebuff, the world’s largest database of movies releasing in India. One of the goals of Moviebuff at the time of its conception was to give something back to the industry, while enabling a direct connection for the aspiring filmmakers with the industry and audiences. Through First Clap, a short film contest for aspiring filmmakers to showcase their creations, Moviebuff and its partners in this venture hope to identify and nurture talent, while giving them the ultimate platform to exhibit their craft and measure the pulse of audiences in cinemas.</p>
-                    <p class="col-lg-12 m-t-20">In association with Little Shows and 2D Entertainment, Moviebuff presents First Clap - India's first theatrically showcased talent hunt for ASPIRING FILMMAKERS!</p>
-                    <p class="col-lg-12 text-left">Role : Android Developer <br> Website : <a href="https://play.google.com/store/apps/details?id=moviebuff.com.firstclap" target="_blank" class="text-center">FirstClap - Playstore</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 </div>
-<%- include ./partials/footer.ejs %>
+<% include ./partials/footer.ejs %>

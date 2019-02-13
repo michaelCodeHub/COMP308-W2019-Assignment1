@@ -1,3 +1,8 @@
+// File Name : config/app.js
+// Author Name : Michael ADAIKALARAJ
+// Student Number : 300958145
+// Date : Feb 12, 2019
+
 let createError = require('http-errors');
 let express = require('express');
 let path = require('path');

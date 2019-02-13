@@ -1,3 +1,10 @@
+<!-- 
+File Name : admin/index.ejs
+Author Name : Michael ADAIKALARAJ
+Student Number : 300958145
+Date : Feb 12, 2019 -->
+
+
 <% include ../partials/header.ejs %>
 
   <div class="container">
@@ -17,6 +24,7 @@
             <th class="text-center"></th>
           </tr>
 
+<!-- Loop through all the messages in the database -->
           <% messages.forEach(message => { %>
             <tr>
               <td class="text-center"><%= message.firstName %></td>
