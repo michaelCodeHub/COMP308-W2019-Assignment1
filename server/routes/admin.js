@@ -9,13 +9,12 @@ let router = express.Router();
 let adminController = require('../controller/admin');
 
 // Get messages list - READ
-
 router.get('/', adminController.displayMessages);
 
-// Adding a messge
+// Adding a messge to the db
 router.post('/', adminController.processMessage);
 
-//delete a message
+//delete a message from db
 router.get('/delete/:id', adminController.deleteMessage);
 
 module.exports = router;

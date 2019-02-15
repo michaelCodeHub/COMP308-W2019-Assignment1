@@ -31,6 +31,7 @@ let showContactPage = (req, res, next) => {
     res.render('contact', { title: 'Contact' });
   };
 
+  //export all the methods
 module.exports = {
     showIndexPage,
     showAboutPage,

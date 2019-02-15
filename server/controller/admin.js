@@ -47,6 +47,7 @@ let processMessage = (req,res,next) => {
 };
 
 
+//delete a messsage from the database
 let deleteMessage = (req,res,next) => {
     let id = req.params.id;
 
@@ -60,6 +61,8 @@ let deleteMessage = (req,res,next) => {
     });
 };
 
+
+//export all the methods
 module.exports = {
     displayMessages,//getting all the messages
     processMessage, //Processing the add message
