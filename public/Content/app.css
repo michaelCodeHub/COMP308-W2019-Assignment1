@@ -138,7 +138,7 @@ html, body{
 }
 
 .tileBig{
-  height: 620px;
+  /* height: 620px; */
   /* background-color: #00c4f3; */
   box-shadow: 2px 2px 12px 2px #afafaf;
   border-radius: 5px;
@@ -187,6 +187,20 @@ html, body{
   .aboutme{
     padding: 10px;
   }
+  
+
+.tileSmall .project-logo{
+  width: auto;
+  height: 50px;
+  margin: auto;
+}
+
+.tileBig .project-logo{
+  width: auto;
+  height: 100px;
+  margin: auto;
+}
+
 }
 
 .underLine{
